@@ -1,0 +1,140 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.navi {
+    overflow: auto;
+    /* margin-bottom: 25px; */
+    margin: 0 auto;
+    width: 95%;
+}
+
+.locality {
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+.locality .city {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.weather {
+    border: 1px solid #cecece;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url(./images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 5px 10px 11px 5px #888888;
+
+}
+
+.weather hr {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+.weather .navi .nav-item.left {
+    float: left;
+    /* padding-left: 10px; */
+    /* margin: 0 2%; */
+    width: 27%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.weather .navi .nav-item.center input {
+    float: left;
+    /* padding: 0 5px; */
+    /* margin: 0 0 0 4%; */
+    width:75%;
+    padding: 3px;
+}
+
+.weather .navi .nav-item.center {
+    float: left;
+    width: 45%;
+    padding: 2px 0;
+}
+
+.weather .navi .nav-item.center button {
+    height: 22px;
+}
+
+.weather .navi .nav-item.right {
+    float: left;
+    /* padding-right: 10px; */
+    text-align: right;
+    margin: 5px 0%;
+    width: 27%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.weather .navi .nav-item {
+    margin: 5px 0;
+}
+
+.temp-data {
+    overflow: auto;
+    margin: 15px auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px 10px 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.temp-data .temp {
+    margin-right: 3px;
+}
+
+.left-temp, .symbol, .right-temp {
+    float: left;
+    text-align: center;
+}
+
+.left-temp, .right-temp {
+    margin-top: 30%;
+}
+
+.symbol img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    /* padding-bottom: 10px; */
+}
+
+.symbol .curr-temp {
+    border: 1px solid #fafafa;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.more-info {
+    text-align: center;
+    margin: 15px auto;
+    width: 85%;
+    /* padding-right: 6%; */
+    font-family: 'Comfortaa', cursive;
+}
+
+.more-info .desc {
+    font-size: 25px;
+}
+
+.more-info .time {
+    font-size: 23px;
+}
