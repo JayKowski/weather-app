@@ -19,7 +19,7 @@ This is a weather app that consumes the openweathermap API to get weather data f
  
 ## Live Link
 
-Check out the live link of the page at [Kowski's Eats](https://rawcdn.githack.com/JayKowski/restaurant-page/edf064e3a0a99042c73e2be8154214bc8df7b5c7/dist/index.html)
+Check out the live link of the page at [weather-app](https://raw.githack.com/JayKowski/weather-app/feature-branch/dist/index.html)
 
 ## Technologies Used
 
