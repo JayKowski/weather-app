@@ -8,6 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
+  "heroku-run-build-script": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JayKowski/weather-app.git"
@@ -24,6 +25,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "express": "^4.17.1",
     "file-loader": "^6.0.0",
     "style-loader": "^1.2.1",
     "stylelint": "^13.3.3",
