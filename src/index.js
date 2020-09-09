@@ -5,7 +5,7 @@ import fixData from './datafix';
 const weatherData = {};
 
 const dataAPI = async (input) => {
-  await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=7248a4efe2e1d579af3b160607466f42`)
+  await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${input}&APPID=7248a4efe2e1d579af3b160607466f42`, { mode: 'cors' })
     .then((result) => result.json())
     .then((result) => {
       if (result.cod === '404') {
