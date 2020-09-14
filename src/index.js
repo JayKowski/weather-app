@@ -53,11 +53,8 @@ search.addEventListener('click', (e) => {
   }
 });
 
-const rTemp = document.querySelector('.right-temp .temp');
-const lTemp = document.querySelector('.left-temp .temp');
 const units = document.querySelector('.units');
 
 units.addEventListener('click', (e) => {
   unitConvert(weatherData, e.target);
-  console.log(e);
 });
