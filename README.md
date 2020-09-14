@@ -20,7 +20,7 @@ This is a weather app that consumes the openweathermap API to get weather data f
  
 ## Live Link
 
-Check out the live link of the page at [weather-app](https://weather-view.netlify.app/)
+Check out the live link of the page at [weather-view](https://weather-view.netlify.app/)
 
 ## Technologies Used
 
