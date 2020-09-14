@@ -10,7 +10,8 @@ A weather app that consumes data from an API
 
 This is a weather app that consumes the openweathermap API to get weather data from cities around the world.
 
-![weather-app](https://user-images.githubusercontent.com/47361638/90670907-943b3c00-e25c-11ea-8cd6-b74b5d7d7ffc.png)
+![weather-view](https://user-images.githubusercontent.com/47361638/93146115-a9d64100-f6f6-11ea-84e7-1b46f2c9740e.png)
+
 
 ## Features
 
