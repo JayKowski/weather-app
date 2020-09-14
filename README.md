@@ -19,7 +19,7 @@ This is a weather app that consumes the openweathermap API to get weather data f
  
 ## Live Link
 
-Check out the live link of the page at [weather-app](https://raw.githack.com/JayKowski/weather-app/feature-branch/dist/index.html)
+Check out the live link of the page at [weather-app](https://weather-view.netlify.app/)
 
 ## Technologies Used
 
