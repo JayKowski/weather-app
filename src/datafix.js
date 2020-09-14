@@ -24,7 +24,7 @@ function fixData(param) {
   wndSpd.innerHTML = `wind speed: ${param.wind} m/s`;
   humidity.innerHTML = `Humidity: ${param.humid} &percnt;`;
   descr.innerHTML = `${param.desc}`;
-  image.src = `http://openweathermap.org/img/wn/${param.icon}@2x.png`;
+  image.src = `https://openweathermap.org/img/wn/${param.icon}@2x.png`;
 }
 
 
