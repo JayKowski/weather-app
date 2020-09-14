@@ -1,6 +1,6 @@
 import './styles.css';
 import { timeUTC } from './timeconvert';
-import fixData from './datafix';
+import { fixData, unitConvert } from './datafix';
 
 const weatherData = {};
 
@@ -51,4 +51,13 @@ search.addEventListener('click', (e) => {
     weatherData.kbInput = val;
     dataAPI(weatherData.kbInput);
   }
+});
+
+const rTemp = document.querySelector('.right-temp .temp');
+const lTemp = document.querySelector('.left-temp .temp');
+const units = document.querySelector('.units');
+
+units.addEventListener('click', (e) => {
+  unitConvert(weatherData, e.target);
+  console.log(e);
 });
