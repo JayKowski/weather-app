@@ -30,6 +30,26 @@ This project utilizes:
 - CSS
 - HTML
 
+## Getting started
+
+For running this project, i recommend using VS code text editor
+
+- To get started, first clone the repo:
+
+`$ git clone https://github.com/JayKowski/weather-app.git`
+
+- Then navigate into the folder containing the project
+
+`$ cd weather-app/`
+
+- Then run the following command to install the required dependencies:
+
+`$ npm install`
+
+- Then, if you havent already, proceed to install the "live server" extension for live server and start the server.
+- To start the server, to the bottom-right of the VS code editor, you should see a button written "Go Live".
+- Click on that tp start the server. It will automatically open a new tab on your default browser 
+
 ## Contributors
 
 - Jay Maina
