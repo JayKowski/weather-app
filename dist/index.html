@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="weather">
+            <nav class="navi">
+                <span class="nav-item left">10, MAY 2020</span>
+                <span class="nav-item center"><input class="search" type="text" placeholder="Search.."><button class="srch-btn"><i class="fas fa-search"></i></button></span>
+                <span class="nav-item right">Nairobi ,KE</span>
+            </nav><hr>
+            <div class="locality">
+                <i class="fas fa-city"></i>
+                <p class="city">Nairobi</p>
+                <button class="units">units: &deg;C</button>
+            </div><hr>
+            <div class="temp-data">
+                <div class="left-temp">
+                    <span><span class="temp">18</span><i class="fas fa-temperature-low"></i></span>
+                </div>
+                <div class="symbol">
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="curr-temp">20</span>
+                </div>
+                <div class="right-temp">
+                    <span><span class="temp">18</span><i class="fas fa-temperature-high"></i></span>
+                </div>
+            </div><hr>
+            <div class="more-info">
+                <p class="desc">The description</p>
+                <p class="time"><span>local time:</span> </p>
+                <p class="wind"><span>wind speed:</span> </p>
+                <p class="humi"><span>Humidity:</span> </p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
